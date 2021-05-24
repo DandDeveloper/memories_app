@@ -6,7 +6,7 @@ export default makeStyles((theme) => ({
     objectFit: "cover",
     maxHeight: "600px",
     [theme.breakpoints.down("sm")]: {
-      width: "80%",
+      width: "100%",
       objectFit: "contain",
     },
   },
@@ -16,16 +16,16 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.down("md")]: {
       flexWrap: "wrap",
       flexDirection: "column",
-      textAlign: "center",
+      // textAlign: "center",
     },
   },
   section: {
     borderRadius: "20px",
     margin: "50px",
     flex: 1,
-    [theme.breakpoints.down("sm")]: {
-      textAlign: "center",
-    },
+    // [theme.breakpoints.down("sm")]: {
+    //   textAlign: "center",
+    // },
   },
   imageSection: {
     marginLeft: "20px",
@@ -37,7 +37,7 @@ export default makeStyles((theme) => ({
     display: "flex",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
-      textAlign: "center",
+      // textAlign: "center",
     },
   },
   loadingPaper: {
